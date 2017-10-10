@@ -3,6 +3,39 @@
   padding-top: 3.5em;
 }
 
-.meFull img {
+.imageFull {
   width: 100%;
+}
+
+.meLeft {
+  z-index: 1;
+  position: absolute;
+  top: 3.5em;
+  opacity: 0;
+  transition: opacity 2s;
+  width: 50%;
+}
+
+.meLeft:hover {
+  opacity: 1;
+}
+
+.meRight {
+  z-index: 1;
+  position: absolute;
+  top: 3.5em;
+  right: 0;
+  opacity: 0;
+  transition: opacity 2s;
+  width: 50%;
+}
+ .meRight:hover {
+   opacity: 1;
+ }
+
+.techSkills {
+  position: absolute;
+  left: -8em;
+  top: 6em;
+  z-index: 2;
 }
