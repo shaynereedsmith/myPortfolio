@@ -34,7 +34,7 @@
  }
 
 .techSkills {
-  position: absolute;
+  position: fixed;
   font-family: 'Inconsolata', monospace;
   font-size: 3vw;
   left: -10%;
