@@ -35,7 +35,36 @@
 
 .techSkills {
   position: absolute;
-  left: -8em;
-  top: 6em;
+  font-family: 'Inconsolata', monospace;
+  font-size: 150%;
+  left: -10%;
+  top: 15%;
   z-index: 2;
+  opacity: 0;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+
+.indent {
+  text-indent: 1em;
+}
+
+.lightGreen {
+  color: lightgreen;
+}
+
+.blue {
+  color: blue;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
 }
