@@ -12,7 +12,7 @@
   position: absolute;
   top: 3.5em;
   opacity: 0;
-  transition: opacity 2s;
+  transition: opacity 1s;
   width: 50%;
 }
 
@@ -26,7 +26,7 @@
   top: 3.5em;
   right: 0;
   opacity: 0;
-  transition: opacity 2s;
+  transition: opacity 1s;
   width: 50%;
 }
  .meRight:hover {
@@ -36,35 +36,17 @@
 .techSkills {
   position: absolute;
   font-family: 'Inconsolata', monospace;
-  font-size: 150%;
+  font-size: 3vw;
   left: -10%;
-  top: 15%;
+  top: 25%;
   z-index: 2;
   opacity: 0;
   color: white;
   text-shadow: 2px 2px 8px black;
 }
 
-.indent {
-  text-indent: 1em;
-}
-
-.lightGreen {
-  color: lightgreen;
-}
-
-.blue {
-  color: blue;
-}
-
-.orange {
-  color: orange;
-}
-
-.red {
-  color: red;
-}
-
-.yellow {
-  color: yellow;
+.easeDown {
+  font-size: 2.5vw;
+  line-height: 0%;
+  opacity: 0;
 }

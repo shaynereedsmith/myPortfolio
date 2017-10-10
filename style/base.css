@@ -9,3 +9,28 @@
 .bodyContainer {
   width: 100%;
 }
+
+
+.indent {
+  text-indent: 1em;
+}
+
+.lightGreen {
+  color: lightgreen;
+}
+
+.blue {
+  color: blue;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}

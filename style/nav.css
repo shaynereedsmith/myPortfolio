@@ -17,18 +17,19 @@ nav {
   font-family: 'Rye', cursive;
   font-size: 1.5em;
   color: white;
+  text-shadow: 4px 4px #4c4c4c;
 }
 
 .navButtons a {
   font-family: 'Righteous', cursive;
   color: #9a9a9a;
-  padding: 0em 1em;
+  margin: 0em 1em;
   height: 100%;
   text-decoration: none;
-  transition: color 0.5s, text-decoration 0.5s;
+  transition: color 0.5s, border-bottom 0.5s;
 }
 
 .navButtons a:hover {
   color: #ee8100;
-  text-decoration: underline;
+  border-bottom: 5px solid #ee8100;
 }
