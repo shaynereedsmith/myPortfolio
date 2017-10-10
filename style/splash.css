@@ -1,0 +1,52 @@
+.meFull {
+  width: 100%;
+  padding-top: 3.5em;
+}
+
+.imageFull {
+  width: 100%;
+}
+
+.meLeft {
+  z-index: 1;
+  position: absolute;
+  top: 3.5em;
+  opacity: 0;
+  transition: opacity 1s;
+  width: 50%;
+}
+
+.meLeft:hover {
+  opacity: 1;
+}
+
+.meRight {
+  z-index: 1;
+  position: absolute;
+  top: 3.5em;
+  right: 0;
+  opacity: 0;
+  transition: opacity 1s;
+  width: 50%;
+}
+ .meRight:hover {
+   opacity: 1;
+ }
+
+.techSkills {
+  position: absolute;
+  font-family: 'Inconsolata', monospace;
+  font-size: 3vw;
+  left: -10%;
+  top: 25%;
+  z-index: 2;
+  opacity: 0;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+
+.easeDown {
+  font-size: 2.5vw;
+  line-height: 0%;
+  opacity: 0;
+}
