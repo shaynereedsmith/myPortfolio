@@ -33,8 +33,10 @@
    opacity: 1;
  }
 
+
+ /* LEFT SIDE */
 .techSkills {
-  position: absolute;
+  position: fixed;
   font-family: 'Inconsolata', monospace;
   font-size: 3vw;
   left: -10%;
@@ -49,4 +51,107 @@
   font-size: 2.5vw;
   line-height: 0%;
   opacity: 0;
+}
+
+/* RIGHT SIDE */
+.creativeSkills {
+  /*position: absolute;*/
+}
+
+.cSkills {
+  z-index: 2;
+  position: fixed;
+  right: -10%;
+  top: 0%;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2vw;
+  color: #a9ff02;
+  text-shadow: 2px 2px black,
+               -2px -2px #00aaff,
+               4px 4px 8px black;
+  -ms-transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+  opacity: 0;
+}
+
+.gameDev {
+  font-family: 'Monoton', cursive;
+  z-index: 2;
+  position: fixed;
+  right: 4%;
+  top: 28%;
+  font-size: 3vw;
+  color: red;
+  opacity: 0;
+  letter-spacing: -20px;
+  text-shadow: 1px 1px #ff01aa,
+              -1px -1px black,
+              -1px 1px black,
+              4px 4px 8px black;
+}
+
+.illustration {
+  font-family: 'Special Elite', cursive;
+  z-index: 2;
+  position: fixed;
+  right: 10%;
+  top: 40%;
+  font-size: 5.5vw;
+  -ms-transform: rotate(6deg);
+  -webkit-transform: rotate(6deg);
+  transform: rotate(6deg);
+  color: white;
+  text-shadow: 2px 2px black,
+              4px 4px 8px black;
+  opacity: 0;
+}
+
+.animation {
+  font-family: 'Zilla Slab Highlight', cursive;
+  z-index: 2;
+  position: fixed;
+  right: -20%;
+  top: 48%;
+  color: #222;
+  font-size: 3.5vw;
+  text-shadow: 2px 2px red,
+              -2px -2px red,
+              -2px 2px red,
+              2px -2px red,
+              4px 4px 8px black;
+}
+
+.webDev {
+  font-family: 'Limelight', cursive;
+  z-index: 2;
+  position: fixed;
+  right: 7%;
+  top: 56%;
+  font-size: 2.5vw;
+  color: #00ffd4;
+  letter-spacing: 30px;
+  opacity: 0;
+  text-shadow: 1px 1px darkblue,
+              -1px -1px darkblue,
+              -1px 1px darkblue,
+              1px -1px darkblue,
+              2px 2px white,
+              -2px -2px white,
+              -2px 2px white,
+              2px -2px white,
+              4px 4px 8px black;
+}
+
+.music {
+  font-family: 'Luckiest Guy', cursive;
+  z-index: 2;
+  position: fixed;
+  right: 14%;
+  top: 300%;
+  font-size: 3.5vw;
+  color: yellow;
+  text-shadow: 2px 2px black,
+              4px 4px 8px #ff01aa,
+              4px 4px 8px black;
 }
