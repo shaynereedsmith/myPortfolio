@@ -77,7 +77,8 @@ $('.meRight')
     .stop(true, true)
     .delay(1000)
     .animate({
-      top: '65%'
+      top: '65%',
+      opacity: 1
     }, 1000, 'easeOutBack');
   })
 // MOUSE EXIT
@@ -120,6 +121,7 @@ $('.meRight')
     .stop(true, true)
     .delay(500)
     .animate({
-      top: '-65%'
+      top: '-65%',
+      opacity: 0,
     }, 1000);
   })

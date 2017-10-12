@@ -1,6 +1,8 @@
 .meFull {
   width: 100%;
   padding-top: 3.5em;
+  position: relative;
+  z-index: 2;
 }
 
 .imageFull {
@@ -36,7 +38,7 @@
 
  /* LEFT SIDE */
 .techSkills {
-  position: fixed;
+  position: absolute;
   font-family: 'Inconsolata', monospace;
   font-size: 3vw;
   left: -10%;
@@ -60,7 +62,7 @@
 
 .cSkills {
   z-index: 2;
-  position: fixed;
+  position: absolute;
   right: -10%;
   top: 0%;
   font-family: 'Luckiest Guy', cursive;
@@ -78,7 +80,7 @@
 .gameDev {
   font-family: 'Monoton', cursive;
   z-index: 2;
-  position: fixed;
+  position: absolute;
   right: 4%;
   top: 28%;
   font-size: 3vw;
@@ -94,7 +96,7 @@
 .illustration {
   font-family: 'Special Elite', cursive;
   z-index: 2;
-  position: fixed;
+  position: absolute;
   right: 10%;
   top: 40%;
   font-size: 5.5vw;
@@ -110,7 +112,7 @@
 .animation {
   font-family: 'Zilla Slab Highlight', cursive;
   z-index: 2;
-  position: fixed;
+  position: absolute;
   right: -20%;
   top: 48%;
   color: #222;
@@ -125,7 +127,7 @@
 .webDev {
   font-family: 'Limelight', cursive;
   z-index: 2;
-  position: fixed;
+  position: absolute;
   right: 7%;
   top: 56%;
   font-size: 2.5vw;
@@ -146,7 +148,7 @@
 .music {
   font-family: 'Luckiest Guy', cursive;
   z-index: 2;
-  position: fixed;
+  position: absolute;
   right: 14%;
   top: 300%;
   font-size: 3.5vw;
@@ -154,4 +156,5 @@
   text-shadow: 2px 2px black,
               4px 4px 8px #ff01aa,
               4px 4px 8px black;
+  opacity: 0;
 }

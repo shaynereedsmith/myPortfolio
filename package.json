@@ -1,0 +1,23 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaynereedsmith/myPortfolio.git"
+  },
+  "author": "Shayne Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaynereedsmith/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/shaynereedsmith/myPortfolio#readme"
+}
