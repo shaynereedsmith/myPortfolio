@@ -3,5 +3,5 @@
 $(window).scroll(function() {
   var scrollTop = $(this).scrollTop();
   $('.aboutMeTitle')
-  .css('top', -(scrollTop * 0.5) + 'px')
+  .css('top', -(scrollTop * 1) + 'px')
 });

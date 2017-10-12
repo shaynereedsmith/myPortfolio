@@ -1,12 +1,10 @@
 #aboutMeContainer {
-  position: relative;
   top: -30%;
-  z-index: 5;
-  padding: 4em;
-  background-color: #e2e2e2;
   top: -5px;
   text-align: center;
 }
+
+
 
 .aboutMe {
   position: relative;
@@ -17,28 +15,74 @@
 .aboutMe h1 {
   color: #ee8100;
   font-size: 2em;
-  padding-bottom: 2em;
+  padding: 2em 0em;
 }
+
+
 
 #skills-triptach {
   padding: 2em 0em;
 }
 
 #uxui {
-  width: calc(100% / 3);
-  border: 1px solid #ee8100;
+  height: 100%;
+  margin: 1em;
+  border-radius: 10px;
+  display: inline-block;
+  width: calc(100% / 4);
+  background-color: #ee8100;
   padding: 1em;
+  z-index: 1;
+  position: relative;
 }
 
 #uxui h2 {
   padding: 1em;
   font-size: 2em;
-  color: #ee8100;
+  color: white;
+}
+
+#code {
+  height: 100%;
+  margin: 1em;
+  border-radius: 10px;
+  display: inline-block;
+  width: calc(100% / 4);
+  background-color: #ee8100;
+  padding: 1em;
+  z-index: 1;
+  position: relative;
+}
+
+#code h2 {
+  padding: 1em;
+  font-size: 2em;
+  color: white;
+}
+
+#design {
+  height: 100%;
+  margin: 1em;
+  border-radius: 10px;
+  display: inline-block;
+  width: calc(100% / 4);
+  background-color: #ee8100;
+  padding: 1em;
+  z-index: 1;
+  position: relative;
+}
+
+#design h2 {
+  padding: 1em;
+  font-size: 2em;
+  color: white;
 }
 
 .eye {
   color: #75ddde;
 }
+
+/*ABOUT ME FLOATER*/
 
 .aboutMeTitleContainer {
   position: relative;
@@ -56,6 +100,17 @@
   top: -3em;
   color: #ff6601;
   font-size: 1.5em;
+}
+
+
+
+.subAbout {
+  position: relative;
+  bottom: 10em;
+  height: 10em;
+  width: 100%;
+  background-color: #ee8100;
+  padding-bottom: 5em;
 }
 
 /*.grayBackground {
