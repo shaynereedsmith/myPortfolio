@@ -156,4 +156,5 @@
   text-shadow: 2px 2px black,
               4px 4px 8px #ff01aa,
               4px 4px 8px black;
+  opacity: 0;
 }

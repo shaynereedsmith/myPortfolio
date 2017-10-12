@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Righteous|Rye" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Limelight|Luckiest+Guy|Monoton|Special+Elite|Zilla+Slab+Highlight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
 
   </head>
@@ -42,7 +43,6 @@
 
       <!-- SPLASH IMAGES -->
       <div class="meFull">
-
         <!-- LEFT HALF -->
         <img class="meLeft" src="img/meLeft.png" alt="">
         <section id="l" class="techSkills">
@@ -58,7 +58,6 @@
             </section>
           </ul>
         </section>
-
         <!-- RIGHT HALF -->
         <img class="meRight" src="img/meRight.png" alt="">
         <section id="r" class="creativeSkills">
@@ -69,34 +68,54 @@
           <p class="webDev">Web Development</p>
           <p class="music">Music!</p>
         </section>
-
         <!-- FULL SPLASH IMAGE -->
         <img class="imageFull" src="img/meFull.png">
-
       </div>
 
-      <div class="angledBackgroundOne">
-
+      <div id="aboutMeContainer">
+        <section class="aboutMe">
+          <h1>Hi! I'm Shayne</h1>
+          <p>A Web Designer and Game Developer based out of Washington State.</p>
+          <p>Fullstack JS with an emphasis on UI/UX and visual storytelling.</p>
+          <section id="skills-triptach">
+            <section id="uxui">
+              <i class="eye fa fa-eye fa-4x" aria-hidden="true"></i>
+              <h2>UX/UI</h2>
+              <p>Bringing content to users in an engaging way is my passion. We all have a story to tell, and simple, interactive web interfaces can open up users to receive content with open arms.</p>
+            </section>
+          </section>
+        </section>
       </div>
-      <section id="aboutMeContainer">
+
+      <div class="aboutMeTitleContainer">
         <div class="aboutMeTitle">
-          About Me
+          <img src="img/aboutSplash.png" /><span>About Me</span>
         </div>
-        <h1>Hi! I'm Shayne Smith</h1>
-        <p>A Web Developer and Game developer based out of Washington State.</p>
-      </section>
+      </div>
+
+
+      <!-- <div id="grayBackgroundParallaxContainer">
+
+        <<div class="grayBackground"></div>
+
+        <<img id="about-gray" src="img/aboutGray.png" />
+
+      </div> -->
+
 
     </div>
 
   </body>
 
   <!-- LIBRARIES -->
-  <!-- <script src="https://use.fontawesome.com/021f7366b5.js"></script> -->
+  <script src="https://use.fontawesome.com/021f7366b5.js"></script>
   <script src="script/jquery-3.2.1.min.js"></script>
 
   <!-- JS SCRIPTS -->
   <script src="script/splash.js"></script>
-  <script src="script/easing.js">
+  <script src="script/easing.js"></script>
+  <script src="script/parallax.js"></script>
+  <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="node_modules/waypoints/lib/shortcuts/inview.min.js"></script>
 
-  </script>
 </html>
