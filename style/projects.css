@@ -1,5 +1,7 @@
 .projectsContainer {
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
 .projectsContainer h2 {
@@ -12,5 +14,36 @@
 }
 
 .blobfhsiContainer {
+  margin: auto;
+  background-color: #ffaa46;
+  position: relative;
+  height: 315px;
+}
 
+.blobfhsiContainer iframe {
+  width: calc((100% / 2) - 10px);
+  float: right;
+  position: inherit;
+}
+
+.blobfishDescript {
+  width: calc((100% / 2) - 10px);
+  text-align: left;
+}
+
+.blobfishDescript h3 {
+  font-family: 'Righteous', cursive;
+  font-size: 2em;
+  padding: 0.5em;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.blobfishDescript h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8em;
+  color: #ca6d00;
+  border-bottom: 1px dashed white;
+  padding: 0em 0.3em 0.8em 0em;
+  margin-left: 1em;
 }
