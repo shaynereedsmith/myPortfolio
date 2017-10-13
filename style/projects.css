@@ -1,0 +1,16 @@
+.projectsContainer {
+  text-align: center;
+}
+
+.projectsContainer h2 {
+  color: #ee8100;
+  padding-bottom: 0.5em;
+  font-size: 2em;
+  margin: 2em 0em;
+  border-bottom: 1px solid #ee8100;
+  display: inline-block;
+}
+
+.blobfhsiContainer {
+
+}

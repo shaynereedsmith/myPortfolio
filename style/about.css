@@ -1,6 +1,4 @@
 #aboutMeContainer {
-  top: -30%;
-  top: -5px;
   text-align: center;
 }
 
@@ -14,8 +12,11 @@
 
 .aboutMe h1 {
   color: #ee8100;
+  padding-bottom: 0.5em;
   font-size: 2em;
-  padding: 2em 0em;
+  margin: 2em 0em;
+  border-bottom: 1px solid #ee8100;
+  display: inline-block;
 }
 
 
@@ -24,56 +25,26 @@
   padding: 2em 0em;
 }
 
-#uxui {
+.tripUnit {
   height: 100%;
   margin: 1em;
-  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   display: inline-block;
   width: calc(100% / 4);
   background-color: #ee8100;
   padding: 1em;
   z-index: 1;
   position: relative;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
-#uxui h2 {
-  padding: 1em;
-  font-size: 2em;
-  color: white;
-}
-
-#code {
-  height: 100%;
+.tripUnit h2 {
+  /*display: inline-block;*/
+  border-bottom: 1px dashed white;
+  padding-bottom: 0.5em;
   margin: 1em;
-  border-radius: 10px;
-  display: inline-block;
-  width: calc(100% / 4);
-  background-color: #ee8100;
-  padding: 1em;
-  z-index: 1;
-  position: relative;
-}
-
-#code h2 {
-  padding: 1em;
-  font-size: 2em;
-  color: white;
-}
-
-#design {
-  height: 100%;
-  margin: 1em;
-  border-radius: 10px;
-  display: inline-block;
-  width: calc(100% / 4);
-  background-color: #ee8100;
-  padding: 1em;
-  z-index: 1;
-  position: relative;
-}
-
-#design h2 {
-  padding: 1em;
   font-size: 2em;
   color: white;
 }
@@ -107,10 +78,59 @@
 .subAbout {
   position: relative;
   bottom: 10em;
-  height: 10em;
+  height: 14em;
   width: 100%;
   background-color: #ee8100;
   padding-bottom: 5em;
+}
+
+
+.description {
+  top: -10em;
+  position: relative;
+  background-color: #84feff;
+  font-family: 'Quicksand', sans-serif;
+  box-shadow: 10px 10px rgba(128,128,128,0.5);
+}
+
+.description img {
+  position: relative;
+  width: calc(100% / 2);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.aboutContent {
+  width: calc((100% / 2) - 10px);
+  position: relative;
+  display: inline-block;
+}
+
+.aboutContent h2 {
+  display: inline-block;
+  font-family: 'Rye', cursive;
+  color: red;
+  font-size: 2em;
+  padding: 0.5em 1em 0.5em 0em;
+  margin-left: 1em;
+  border-bottom: 1px dashed red;
+}
+
+.aboutContent p {
+  text-indent: 1em;
+  padding: 0px 2em;
+  font-size: 1.8vw;
+  color: #5cadad;
+}
+
+.aboutContent em{
+  color: #ee8100;
+  font-style: italic;
+}
+
+.aboutContent a {
+  color: red;
+  font-weight: bolder;
 }
 
 /*.grayBackground {
