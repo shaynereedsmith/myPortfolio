@@ -16,14 +16,16 @@ $('.pageOneButton').on('click', function(){
 });
 
 $('.pageTwoButton').on('click', function(){
-  $('.blobfhsiContainer')
-  .animate({
-    opacity: 0,
-    zIndex: 0
-  }, 500);
-  $('.ghosTownContainer')
-  .animate({
-    opacity: 1,
-    zIndex: 1
-  }, 500);
+  if ($('.ghosTownContainer').attr('opacity','0')) {
+    $('.blobfhsiContainer')
+    .animate({
+      opacity: 0,
+      zIndex: 0
+    }, 500);
+    $('.ghosTownContainer')
+    .animate({
+      opacity: 1,
+      zIndex: 1
+    }, 500);
+  }
 })
