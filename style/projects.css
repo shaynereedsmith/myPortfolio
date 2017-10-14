@@ -15,6 +15,8 @@
 }
 
 .blobfhsiContainer {
+  z-index: 1;
+  position: absolute;
   margin: auto;
   background-color: #ffaa46;
   position: relative;
@@ -57,7 +59,7 @@
   font-family: 'Quicksand', sans-serif;
   color: #8c4d01;
   padding: 1em;
-  font-size: 2vw;
+  font-size: 1em;
 }
 
 .blobfishButtons {
@@ -84,6 +86,17 @@
 a {
   text-decoration: none;
 }
+
+
+
+
+.ghosTownContainer {
+  position: absolute;
+  top: 133.7em;
+  opacity: 0;
+  z-index: 0;
+}
+
 
 
 
