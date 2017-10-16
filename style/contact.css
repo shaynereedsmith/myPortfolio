@@ -1,0 +1,44 @@
+.contactMeContainer {
+  background-color: #84feff;
+  width: 100%;
+  text-align: center;
+}
+
+.contactMeContainer h2 {
+  display: inline-block;
+  font-family: 'Rye', cursive;
+  font-size: 3em;
+  margin: 2em 2em 0.5em 2em;
+  padding-bottom: 0.5em;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  border-bottom: 5px dashed white;
+}
+
+.contactMeContainer p {
+  font-family: 'Quicksand', sans-serif;
+  padding: 0em 10em 2em 10em;
+}
+
+.contactButtonContainer {
+  position: relative;
+  padding-bottom: 4em;
+}
+
+.contactButton {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  padding: 0.5em;
+  font-size: 2em;
+  font-family: 'Righteous', cursive;
+  border-radius: 10px;
+  color: red;
+  border: 1px solid red;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.contactButton:hover {
+  background-color: red;
+  color: white;
+}
