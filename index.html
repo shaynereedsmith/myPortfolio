@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="style/about.css" type="text/css"/>
     <link rel="stylesheet" href="style/hero.css" type="text/css"/>
     <link rel="stylesheet" href="style/projects.css" type="text/css"/>
+    <link rel="stylesheet" href="style/projects.css" type="text/css"/>
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Righteous|Rye" rel="stylesheet">
@@ -75,31 +76,26 @@
       </div>
 
       <div id="aboutMeContainer">
-
         <section class="aboutMe">
           <h1>Hi, I'm Shayne</h1>
           <p>A Web Designer and Game Developer based out of Washington State.</p>
           <p>Fullstack JS with an emphasis on UI/UX and visual storytelling.</p>
           <section id="skills-triptach">
-
             <section class="tripUnit">
               <i class="eye fa fa-eye fa-4x" aria-hidden="true"></i>
               <h2>UX/UI</h2>
               <p>Bringing content to users in an engaging way is my passion. We all have a story to tell, and simple, interactive web interfaces can open up users to receive content with open arms and open hearts.</p>
             </section>
-
             <section class="tripUnit">
               <i class="eye fa fa-code fa-4x" aria-hidden="true"></i>
               <h2>CODE</h2>
               <p>I work in the browser with HTML5, CSS3, JavaScript and jQuery (and developing skills with ReactJS), finding creative and scalable solutions to create the best possible user experience.</p>
             </section>
-
             <section class="tripUnit">
               <i class="eye fa fa-pencil-square-o fa-4x" aria-hidden="true"></i>
               <h2>ART</h2>
               <p>A life-long artist with skills in many different areas including Game Design, Illustration, Animation, Spriting, and Writing, not a moment of my life goes by without my creative signature.</p>
             </section>
-
           </section>
         </section>
         <section class="subAbout"></section>
@@ -125,16 +121,68 @@
       </section>
 
       <section class="projectsContainer">
+
         <h2>My Projects</h2>
+
         <section class="blobfhsiContainer">
 
-          <div class="">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/W8nEm-Jf8ho" frameborder="0"></iframe>
+
+          <div class="blobfishDescript">
             <h3>Blobfish Evolution</h3>
             <h4>The highly-rated and "disturbingly addictive" mobile game for iOS and Android.</h4>
-            <p></p>
+            <p>The Blobfish Evolution mobile game was released in August of 2015. It's been downloaded by over 1.5 million people and has rave reviews on both the Apple AppStore and Google Play.<br><br>I was the principal Visual and UX/UI designer, asset creator, garilla marketer, and writer.</p><br>
+            <div class="blobfishButtons">
+              <a class="blobfishButton" target="_blank"  href="https://itunes.apple.com/us/app/blobfish-evolution/id884329022?mt=8">AppStore</a>
+              <a class="blobfishButton" target="_blank"  href="https://play.google.com/store/apps/details?id=com.upstartillustrationllc.BlobfishEvolution&hl=en">Google Play</a>
+            </div>
           </div>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/W8nEm-Jf8ho" frameborder="0"></iframe>
+        </section>
+        <section class="gtRelativeContainer">
+          <section class="ghosTownContainer">
+            <img src="img/ghosTown.png" alt="" height="315">
+            <div class="ghosTownDiscript">
+              <h3>GhosTown</h3>
+              <h4>The widly acclaimed CodeFellows 201 final-project</h4>
+              <p>GhosTown is the brainchild of myself and my small final-project team at CodeFellows. It is a liner, text-based RPG about ghosts trying to escape a postappocalyptic Seattle.<br><br>My contribution was in UX/UI, visual design, animation, styling, and story writing.</p>
+              <div class="blobfishButtons">
+                <a class="blobfishButton" href="http://ghostowngame.com/index.html" target="_blank">GhosTown</a>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section class="pmRelativeContainer">
+          <section class="pongMeContainer">
+            <img src="img/pongMe.png" alt="" height="315">
+            <div class="pongMeDiscript">
+              <h3>Pong Me!</h3>
+              <h4>Ping Pong leaderboard -- challenge friends through Slack!</h4>
+              <p>Pong Me!, my CodeFellows 301 project. Users challenge their friends to ping pong matches. Simply sign in with Slack and initiate a challenge! Results are stored and posted.<br><br>It's the official office ping pong leaderboard!</p>
+              <div class="blobfishButtons">
+                <a class="blobfishButton" href="https://pong-me.herokuapp.com/" target="_blank">Pong Me!</a>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <div class="pageButtons">
+          <div class="pageOneButton"></div>
+          <div class="pageTwoButton"></div>
+          <div class="pageThreeButton"></div>
+        </div>
+
+
+        <div class="projectsTitleContainer">
+          <div class="projectsTitle">
+            <img src="img/aboutSplash.png" /><span>What I've done...</span>
+          </div>
+        </div>
+
+        <section class="contactMeContainer">
+          <h2>Get In Touch!</h2>
+          <p>I am currently accepting new projects and would love to hear about yours. Why not take a few minutes and tell me about it?</p>
         </section>
       </section>
 
@@ -147,12 +195,14 @@
   <!-- LIBRARIES -->
   <script src="https://use.fontawesome.com/021f7366b5.js"></script>
   <script src="script/jquery-3.2.1.min.js"></script>
+  <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="node_modules/waypoints/lib/shortcuts/inview.min.js"></script>
 
   <!-- JS SCRIPTS -->
   <script src="script/splash.js"></script>
   <script src="script/easing.js"></script>
   <script src="script/parallax.js"></script>
-  <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
-  <script src="node_modules/waypoints/lib/shortcuts/inview.min.js"></script>
+  <script src="script/paginate.js"></script>
+
 
 </html>

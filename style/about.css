@@ -74,7 +74,6 @@
 }
 
 
-
 .subAbout {
   position: relative;
   bottom: 10em;
@@ -131,6 +130,10 @@
 .aboutContent a {
   color: red;
   font-weight: bolder;
+}
+
+.aboutContent a:hover{
+  text-decoration: underline;
 }
 
 /*.grayBackground {
