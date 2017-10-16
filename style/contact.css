@@ -1,5 +1,5 @@
 .contactMeContainer {
-  background-color: #84feff;
+  /*background-color: #84feff;*/
   width: 100%;
   text-align: center;
 }
@@ -41,4 +41,25 @@
 .contactButton:hover {
   background-color: red;
   color: white;
+}
+
+
+
+
+.contactTitleContainer {
+  position: relative;
+}
+
+.contactTitle {
+  z-index: 8;
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+}
+
+.contactTitle span {
+  position: relative;
+  left: -12em;
+  top: -3em;
+  color: #ff6601;
+  font-size: 1.5em;
 }

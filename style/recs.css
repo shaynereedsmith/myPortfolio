@@ -1,0 +1,27 @@
+.recomendations {
+  position: relative;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.recomend {
+  position: relative;
+  padding: 4em 10em;
+  color: gray;
+}
+
+.recomend p {
+  font-size: 2em;
+  color: black;
+}
+
+.recomend h5 {
+  text-align: right;
+  padding-top: 1em;
+ }
+
+.recomend em {
+  font-size: 1.3em;
+  font-style: italic;
+}

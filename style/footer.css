@@ -20,4 +20,9 @@ footer, a {
   color: #9a9a9a;
   padding: 0em 0.5em 3em 0.5em;
   text-decoration: none;
+  transition: color 0.5s;
+}
+
+footer a:hover {
+  color: white;
 }

@@ -8,4 +8,7 @@ $(window).scroll(function() {
 
   $('.projectsTitleContainer')
   .css('top', -(scrollTop * 0.4) + 'px');
+
+  $('.contactTitleContainer')
+  .css('top', -(scrollTop * 0.25) + 'px');
 });
