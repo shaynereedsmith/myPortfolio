@@ -238,3 +238,23 @@ a {
   cursor: pointer;
   border-collapse: collapse;
 }
+
+
+
+.projectsTitleContainer {
+  position: relative;
+}
+
+.projectsTitle {
+  z-index: 8;
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+}
+
+.projectsTitle span {
+  position: relative;
+  left: -12em;
+  top: -3em;
+  color: #ff6601;
+  font-size: 1.5em;
+}
