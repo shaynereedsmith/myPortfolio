@@ -135,24 +135,3 @@
 .aboutContent a:hover{
   text-decoration: underline;
 }
-
-/*.grayBackground {
-  width: 100%;
-  height: 20em;
-  background-color: #222;
-  position: relative;
-  z-index: -1;
-  top: -10em;
-}
-
-#about-gray {
-  width: 100%;
-  position: relative;
-  z-index: -1;
-  top: -10em;
-}
-
-#grayBackgroundParallaxContainer {
-  position: relative;
-  top: -1em;
-}*/

@@ -1,0 +1,171 @@
+
+
+
+@media all and (max-width: 830px) {
+  .tripUnit {
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+    background-color: #ee8100;
+    z-index: 1;
+    position: relative;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 0px;
+  }
+  .tripUnit h2 {
+    display: inline-block;
+    border-bottom: 1px dashed white;
+    padding-bottom: 0.5em;
+    margin: 1em;
+    font-size: 2em;
+    color: white;
+  }
+
+
+  .aboutContent {
+    width: calc((100% / 1) - 10px);
+    display: block;
+    position: relative;
+  }
+
+  .aboutContent p {
+    text-indent: 1em;
+    padding: 0px 2em;
+    font-size: 2.2vw;
+    padding-bottom: 1em;
+    color: black;
+  }
+
+  .description img {
+    width: 30%;
+    float: left;
+    padding-right: 1em;
+  }
+
+
+  .projectsContainer {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5em;
+  }
+
+
+  .blobfhsiContainer {
+    z-index: 0;
+    margin: auto;
+    background-color: #ffaa46;
+    position: relative;
+    height: 100%;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 10px 10px #888888;
+    margin-bottom: 2em;
+  }
+  .blobfhsiContainer iframe {
+      width: 100%;
+      position: inherit;
+  }
+  .blobfishDescript {
+    width: 100%;
+    text-align: left;
+  }
+  .blobfishButtons {
+    margin: 2em;
+    text-align: center;
+  }
+
+
+
+  .ghosTownContainer {
+    position: relative;
+    top: 0em;
+    opacity: 1;
+    z-index: 0;
+    margin: auto;
+    background-color: #ffaa46;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px #888888;
+    margin-bottom: 2em;
+    padding-bottom: 0.5em;
+}
+  .ghosTownContainer img {
+      padding-right: 0em;
+      float: none;
+      width: 100%;
+      height: 100%;
+  }
+
+  .pongMeContainer {
+    position: relative;
+    top: 0em;
+    opacity: 1;
+    z-index: 0;
+    margin: auto;
+    background-color: #ffaa46;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px #888888;
+    margin-bottom: 2em;
+    padding-bottom: 0.5em;
+  }
+  .pongMeContainer img {
+    float: none;
+    padding-left: 0em;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+  .pageButtons {
+    display: none;
+  }
+}
+
+
+
+
+@media all and (max-width: 700px) {
+
+  nav {
+    text-align: center;
+  }
+  .navButtons {
+    float: none;
+  }
+  .donger {
+    display: none;
+  }
+  #title {
+    display: none;
+  }
+  .meFull {
+    padding-top: 3em;
+  }
+
+
+  .aboutContent p {
+    text-indent: 1em;
+    padding: 0px 2em;
+    font-size: 1em;
+    padding-bottom: 1em;
+    color: black;
+  }
+
+
+  .projectsContainer {
+    width: 100%;
+  }
+
+  .recomend {
+    position: relative;
+    padding: 5em 4em;
+    color: gray;
+  }
+
+}

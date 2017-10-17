@@ -20,6 +20,10 @@ nav {
   text-shadow: 4px 4px gray;
 }
 
+.navButtons {
+  float: right;
+}
+
 .navButtons a {
   font-family: 'Righteous', cursive;
   color: #9a9a9a;
