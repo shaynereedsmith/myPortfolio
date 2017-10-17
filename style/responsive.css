@@ -2,6 +2,7 @@
 
 
 @media all and (max-width: 830px) {
+
   .tripUnit {
     margin: auto;
     padding: 1em;
@@ -130,7 +131,7 @@
 
 
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 715px) {
 
   nav {
     text-align: center;
@@ -149,6 +150,14 @@
   }
 
 
+  .meLeft {
+    top: 3em;
+  }
+  .meRight {
+    top: 3em;
+  }
+
+
   .aboutContent p {
     text-indent: 1em;
     padding: 0px 2em;
@@ -160,6 +169,7 @@
 
   .projectsContainer {
     width: 100%;
+    background-color: lightgray;
   }
 
   .recomend {
@@ -168,4 +178,8 @@
     color: gray;
   }
 
+  .contactMeContainer p {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0em 3em 2em 3em;
+  }
 }
