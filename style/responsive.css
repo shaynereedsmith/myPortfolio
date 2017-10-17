@@ -122,8 +122,25 @@
   }
 
 
+  .tripUnit:hover {
+    bottom: 0px;
+    box-shadow: none;
+  }
+
 
   .pageButtons {
+    display: none;
+  }
+
+  .aboutMeTitle {
+    display: none;
+  }
+
+  .projectsTitleContainer {
+    display: none;
+  }
+
+  .contactTitleContainer {
     display: none;
   }
 }
@@ -132,6 +149,7 @@
 
 
 @media all and (max-width: 715px) {
+
 
   nav {
     text-align: center;
