@@ -26,6 +26,7 @@
 }
 
 .tripUnit {
+  position: absolute;
   height: 100%;
   margin: 1em;
   border-top-right-radius: 10px;
@@ -38,10 +39,16 @@
   position: relative;
   border-left: 1px solid white;
   border-right: 1px solid white;
+  transition: bottom 1s, box-shadow 0.2s;
 }
 
+.tripUnit:hover {
+  bottom: 10px;
+  box-shadow: 4px -2px 2px 0px rgba(0, 0, 0, .4);
+}
+
+
 .tripUnit h2 {
-  /*display: inline-block;*/
   border-bottom: 1px dashed white;
   padding-bottom: 0.5em;
   margin: 1em;
@@ -119,7 +126,7 @@
   text-indent: 1em;
   padding: 0px 2em;
   font-size: 1.8vw;
-  color: #5cadad;
+  color: black;
 }
 
 .aboutContent em{
@@ -135,24 +142,3 @@
 .aboutContent a:hover{
   text-decoration: underline;
 }
-
-/*.grayBackground {
-  width: 100%;
-  height: 20em;
-  background-color: #222;
-  position: relative;
-  z-index: -1;
-  top: -10em;
-}
-
-#about-gray {
-  width: 100%;
-  position: relative;
-  z-index: -1;
-  top: -10em;
-}
-
-#grayBackgroundParallaxContainer {
-  position: relative;
-  top: -1em;
-}*/

@@ -17,7 +17,10 @@
     <link rel="stylesheet" href="style/about.css" type="text/css"/>
     <link rel="stylesheet" href="style/hero.css" type="text/css"/>
     <link rel="stylesheet" href="style/projects.css" type="text/css"/>
-    <link rel="stylesheet" href="style/projects.css" type="text/css"/>
+    <link rel="stylesheet" href="style/contact.css" type="text/css"/>
+    <link rel="stylesheet" href="style/recs.css" type="text/css"/>
+    <link rel="stylesheet" href="style/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="style/responsive.css" type="text/css"/>
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Righteous|Rye" rel="stylesheet">
@@ -31,18 +34,18 @@
   <body>
 
     <div class="bodyContainer">
-
       <!-- NAVIGATION -->
       <nav>
         <span class="donger">( ͡° ل͜ ͡°)</span>
         <span id="title">ShayneReedSmith.com</span>
-        <span class="navButtons floatRight">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+        <span class="navButtons">
+          <a id="skills" href="#">Skills</a>
+          <a id="about" href="#">About</a>
+          <a id="projects" href="#">Projects</a>
+          <a id="contact" href="#">Contact</a>
         </span>
       </nav>
+      <div class="toSkills"></div>
 
       <!-- SPLASH IMAGES -->
       <div class="meFull">
@@ -75,6 +78,8 @@
         <img class="imageFull" src="img/meFull.png">
       </div>
 
+      <div class="toAbout">
+      </div>
       <div id="aboutMeContainer">
         <section class="aboutMe">
           <h1>Hi, I'm Shayne</h1>
@@ -107,8 +112,8 @@
         </div>
       </div>
 
-      <section class="description">
-        <img src="img/meillustrated.png" alt="">
+      <section class="heroOne description">
+        <img src="img/me.png" alt="">
         <section class="aboutContent">
           <h2>So, who am I?</h2>
           <br>
@@ -120,6 +125,7 @@
         </section>
       </section>
 
+      <div class="toProjects"></div>
       <section class="projectsContainer">
 
         <h2>My Projects</h2>
@@ -180,14 +186,47 @@
           </div>
         </div>
 
-        <section class="contactMeContainer">
-          <h2>Get In Touch!</h2>
-          <p>I am currently accepting new projects and would love to hear about yours. Why not take a few minutes and tell me about it?</p>
-        </section>
+      </section>
+
+      <section class="recomendations">
+        <div class="recomend">
+          <p>"Nightmares... thanks. I love nightmares!"</p>
+          <h5><em>Pewdie</em>, YouTuber, about Blobfish Evolution</h5>
+        </div>
+        <div class="recomend">
+          <p>"Shayne is a software developer's dream to work with. The assets provided for Upstart's games are always high quality and produced very quickly. He is very creative and easy to work with. Shayne also has brilliant insight into monetization strategies and marketing. He would be a valuable asset to any company looking for an illustrator."</p>
+          <h5><em>Eric Chamberlain</em>, Software Developer, Upstart Illustration LLC</h5>
+        </div>
       </section>
 
 
-    <footer></footer>
+      <div class="toContact"></div>
+      <section class="heroOne contactMeContainer">
+        <h2>Get In Touch!</h2>
+        <p>I am currently accepting new projects and would love to hear about yours!<br>Why not take a few minutes and tell me about it?</p>
+        <div class="contactButtonContainer">
+          <a href="mailto:shaynereedsmith@yahoo.com">
+            <div class="contactButton">
+              Send an Email <i class="aboutSocial fa fa-envelope-o" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+      </section>
+
+    <footer>
+      <p class="topLine">Follow me on Social Media</p>
+      <br>
+      <a href="https://github.com/shaynereedsmith" target="_blank"><i class="aboutSocial fa fa-github-alt fa-3x" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/shayne-smith-44153734/" target="_blank"><i class="aboutSocial fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+      <a href="https://angel.co/shayne-smith-4?al_content=view+your+profile&amp;al_source=transaction_feed%2Fnetwork_sidebar" target="_blank"><i class="aboutSocial fa fa-angellist fa-3x" aria-hidden="true"></i></a>
+      <p>&copy; Shayne Smith. All rights reserved.</p>
+    </footer>
+    </div>
+
+    <div class="contactTitleContainer">
+      <div class="contactTitle">
+        <img src="img/aboutSplash.png" /><span>Let me hear from you</span>
+      </div>
     </div>
 
   </body>
@@ -195,14 +234,15 @@
   <!-- LIBRARIES -->
   <script src="https://use.fontawesome.com/021f7366b5.js"></script>
   <script src="script/jquery-3.2.1.min.js"></script>
-  <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
-  <script src="node_modules/waypoints/lib/shortcuts/inview.min.js"></script>
+  <!-- <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script> -->
+  <!-- <script src="node_modules/waypoints/lib/shortcuts/inview.min.js"></script> -->
 
   <!-- JS SCRIPTS -->
   <script src="script/splash.js"></script>
   <script src="script/easing.js"></script>
   <script src="script/parallax.js"></script>
   <script src="script/paginate.js"></script>
+  <script src="script/navigation.js"></script>
 
 
 </html>
