@@ -10,5 +10,5 @@ $(window).scroll(function() {
   .css('top', -(scrollTop * 0.4) + 'px');
 
   $('.contactTitleContainer')
-  .css('top', -(scrollTop * 0.25) + 'px');
+  .css('top', -(scrollTop * 0.2) + 'px');
 });
