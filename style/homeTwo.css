@@ -1,0 +1,44 @@
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.headImageContainer {
+  position: relative;
+  text-align: center;
+  height: 70vh;
+}
+
+.textBubbleLeft {
+  position: absolute;
+}
+
+.headImage {
+  width: 22em;
+  margin: 2em;
+  opacity: 0;
+  -webkit-animation: myself 2s forwards;
+  animation: myself 2s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes myself {
+  100% {opacity: 1;}
+}
+
+.bodyParallax {
+  z-index: 1;
+  position: relative;
+}
+
+.philosophyContainer {
+  background-color: #e91e63;
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-align: center;
+}
+
+.philosophyContainer h1 {
+  font-size: 2em;
+  color: white;
+  padding: 4em 0em;
+}
